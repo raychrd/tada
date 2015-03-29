@@ -13,18 +13,18 @@
 		714733CC1A73317000D2D1EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714733CB1A73317000D2D1EF /* Images.xcassets */; };
 		714733CF1A73317000D2D1EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714733CD1A73317000D2D1EF /* LaunchScreen.xib */; };
 		714733DB1A73317000D2D1EF /* tadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733DA1A73317000D2D1EF /* tadaTests.swift */; };
-		714733EB1A733E3100D2D1EF /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E41A733E3100D2D1EF /* MKButton.swift */; };
-		714733EC1A733E3100D2D1EF /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E51A733E3100D2D1EF /* MKColor.swift */; };
-		714733ED1A733E3100D2D1EF /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E61A733E3100D2D1EF /* MKImageView.swift */; };
-		714733EE1A733E3100D2D1EF /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E71A733E3100D2D1EF /* MKLabel.swift */; };
-		714733EF1A733E3100D2D1EF /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E81A733E3100D2D1EF /* MKLayer.swift */; };
-		714733F01A733E3100D2D1EF /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E91A733E3100D2D1EF /* MKTableViewCell.swift */; };
-		714733F11A733E3100D2D1EF /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733EA1A733E3100D2D1EF /* MKTextField.swift */; };
-		714734031A7366A700D2D1EF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714734021A7366A700D2D1EF /* Event.swift */; };
-		7147FD311A75FBB900A8EADA /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7147FD301A75FBB900A8EADA /* CNPPopupController.m */; };
 		71816BFB1A767FCE004C92E1 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71816BF91A767FCE004C92E1 /* MyCell.swift */; };
 		71816BFD1A768650004C92E1 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71816BFC1A768650004C92E1 /* ListTableViewController.swift */; };
 		71AC73411A7730F60018ADA5 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC73401A7730F60018ADA5 /* NewEventViewController.swift */; };
+		71BAEC6C1AC7CCCD000031C5 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC651AC7CCCD000031C5 /* MKButton.swift */; };
+		71BAEC6D1AC7CCCD000031C5 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC661AC7CCCD000031C5 /* MKColor.swift */; };
+		71BAEC6E1AC7CCCD000031C5 /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC671AC7CCCD000031C5 /* MKImageView.swift */; };
+		71BAEC6F1AC7CCCD000031C5 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC681AC7CCCD000031C5 /* MKLabel.swift */; };
+		71BAEC701AC7CCCD000031C5 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC691AC7CCCD000031C5 /* MKLayer.swift */; };
+		71BAEC711AC7CCCD000031C5 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC6A1AC7CCCD000031C5 /* MKTableViewCell.swift */; };
+		71BAEC721AC7CCCD000031C5 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC6B1AC7CCCD000031C5 /* MKTextField.swift */; };
+		71BAEC741AC7CCFB000031C5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC731AC7CCFB000031C5 /* Event.swift */; };
+		71BAEC771AC7CD22000031C5 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BAEC761AC7CD22000031C5 /* CNPPopupController.m */; };
 		71C2EA6D1A7747F500479B4B /* NewReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2EA6C1A7747F500479B4B /* NewReminder.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,20 +49,20 @@
 		714733D41A73317000D2D1EF /* tadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		714733D91A73317000D2D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		714733DA1A73317000D2D1EF /* tadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tadaTests.swift; sourceTree = "<group>"; };
-		714733E41A733E3100D2D1EF /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
-		714733E51A733E3100D2D1EF /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
-		714733E61A733E3100D2D1EF /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKImageView.swift; sourceTree = "<group>"; };
-		714733E71A733E3100D2D1EF /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
-		714733E81A733E3100D2D1EF /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
-		714733E91A733E3100D2D1EF /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
-		714733EA1A733E3100D2D1EF /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
-		714734021A7366A700D2D1EF /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
-		7147FD2F1A75FBB900A8EADA /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = ../CNPPopupController.h; sourceTree = "<group>"; };
-		7147FD301A75FBB900A8EADA /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = ../CNPPopupController.m; sourceTree = "<group>"; };
 		7147FD331A75FCCE00A8EADA /* tada-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tada-Bridging-Header.h"; sourceTree = "<group>"; };
 		71816BF91A767FCE004C92E1 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		71816BFC1A768650004C92E1 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		71AC73401A7730F60018ADA5 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		71BAEC651AC7CCCD000031C5 /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKButton.swift; path = MK/MKButton.swift; sourceTree = "<group>"; };
+		71BAEC661AC7CCCD000031C5 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKColor.swift; path = MK/MKColor.swift; sourceTree = "<group>"; };
+		71BAEC671AC7CCCD000031C5 /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKImageView.swift; path = MK/MKImageView.swift; sourceTree = "<group>"; };
+		71BAEC681AC7CCCD000031C5 /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKLabel.swift; path = MK/MKLabel.swift; sourceTree = "<group>"; };
+		71BAEC691AC7CCCD000031C5 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKLayer.swift; path = MK/MKLayer.swift; sourceTree = "<group>"; };
+		71BAEC6A1AC7CCCD000031C5 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKTableViewCell.swift; path = MK/MKTableViewCell.swift; sourceTree = "<group>"; };
+		71BAEC6B1AC7CCCD000031C5 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MKTextField.swift; path = MK/MKTextField.swift; sourceTree = "<group>"; };
+		71BAEC731AC7CCFB000031C5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		71BAEC751AC7CD22000031C5 /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = CNP/CNPPopupController.h; sourceTree = "<group>"; };
+		71BAEC761AC7CD22000031C5 /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = CNP/CNPPopupController.m; sourceTree = "<group>"; };
 		71C2EA6C1A7747F500479B4B /* NewReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,9 +108,9 @@
 				7147FD2A1A75FB2700A8EADA /* CNP */,
 				714733F21A733E3800D2D1EF /* MK */,
 				714733C41A73317000D2D1EF /* AppDelegate.swift */,
-				714734021A7366A700D2D1EF /* Event.swift */,
 				714733C61A73317000D2D1EF /* ViewController.swift */,
 				7147FD331A75FCCE00A8EADA /* tada-Bridging-Header.h */,
+				71BAEC731AC7CCFB000031C5 /* Event.swift */,
 				714733C81A73317000D2D1EF /* Main.storyboard */,
 				71AC73401A7730F60018ADA5 /* NewEventViewController.swift */,
 				71816BFC1A768650004C92E1 /* ListTableViewController.swift */,
@@ -151,13 +151,13 @@
 		714733F21A733E3800D2D1EF /* MK */ = {
 			isa = PBXGroup;
 			children = (
-				714733E41A733E3100D2D1EF /* MKButton.swift */,
-				714733E51A733E3100D2D1EF /* MKColor.swift */,
-				714733E61A733E3100D2D1EF /* MKImageView.swift */,
-				714733E71A733E3100D2D1EF /* MKLabel.swift */,
-				714733E81A733E3100D2D1EF /* MKLayer.swift */,
-				714733E91A733E3100D2D1EF /* MKTableViewCell.swift */,
-				714733EA1A733E3100D2D1EF /* MKTextField.swift */,
+				71BAEC651AC7CCCD000031C5 /* MKButton.swift */,
+				71BAEC661AC7CCCD000031C5 /* MKColor.swift */,
+				71BAEC671AC7CCCD000031C5 /* MKImageView.swift */,
+				71BAEC681AC7CCCD000031C5 /* MKLabel.swift */,
+				71BAEC691AC7CCCD000031C5 /* MKLayer.swift */,
+				71BAEC6A1AC7CCCD000031C5 /* MKTableViewCell.swift */,
+				71BAEC6B1AC7CCCD000031C5 /* MKTextField.swift */,
 			);
 			name = MK;
 			sourceTree = "<group>";
@@ -165,8 +165,8 @@
 		7147FD2A1A75FB2700A8EADA /* CNP */ = {
 			isa = PBXGroup;
 			children = (
-				7147FD2F1A75FBB900A8EADA /* CNPPopupController.h */,
-				7147FD301A75FBB900A8EADA /* CNPPopupController.m */,
+				71BAEC751AC7CD22000031C5 /* CNPPopupController.h */,
+				71BAEC761AC7CD22000031C5 /* CNPPopupController.m */,
 			);
 			name = CNP;
 			sourceTree = "<group>";
@@ -271,20 +271,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				714733F11A733E3100D2D1EF /* MKTextField.swift in Sources */,
-				714733EE1A733E3100D2D1EF /* MKLabel.swift in Sources */,
-				714733EB1A733E3100D2D1EF /* MKButton.swift in Sources */,
+				71BAEC6F1AC7CCCD000031C5 /* MKLabel.swift in Sources */,
+				71BAEC701AC7CCCD000031C5 /* MKLayer.swift in Sources */,
 				71C2EA6D1A7747F500479B4B /* NewReminder.swift in Sources */,
 				71816BFB1A767FCE004C92E1 /* MyCell.swift in Sources */,
+				71BAEC741AC7CCFB000031C5 /* Event.swift in Sources */,
 				71AC73411A7730F60018ADA5 /* NewEventViewController.swift in Sources */,
-				714733ED1A733E3100D2D1EF /* MKImageView.swift in Sources */,
-				714733F01A733E3100D2D1EF /* MKTableViewCell.swift in Sources */,
-				714733EF1A733E3100D2D1EF /* MKLayer.swift in Sources */,
+				71BAEC711AC7CCCD000031C5 /* MKTableViewCell.swift in Sources */,
+				71BAEC721AC7CCCD000031C5 /* MKTextField.swift in Sources */,
+				71BAEC6D1AC7CCCD000031C5 /* MKColor.swift in Sources */,
+				71BAEC6C1AC7CCCD000031C5 /* MKButton.swift in Sources */,
+				71BAEC6E1AC7CCCD000031C5 /* MKImageView.swift in Sources */,
+				71BAEC771AC7CD22000031C5 /* CNPPopupController.m in Sources */,
 				714733C71A73317000D2D1EF /* ViewController.swift in Sources */,
 				714733C51A73317000D2D1EF /* AppDelegate.swift in Sources */,
-				7147FD311A75FBB900A8EADA /* CNPPopupController.m in Sources */,
-				714733EC1A733E3100D2D1EF /* MKColor.swift in Sources */,
-				714734031A7366A700D2D1EF /* Event.swift in Sources */,
 				71816BFD1A768650004C92E1 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
