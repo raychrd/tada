@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714733C51A73317000D2D1EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733C41A73317000D2D1EF /* AppDelegate.swift */; };
+		714733C71A73317000D2D1EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733C61A73317000D2D1EF /* ViewController.swift */; };
+		714733CA1A73317000D2D1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714733C81A73317000D2D1EF /* Main.storyboard */; };
+		714733CC1A73317000D2D1EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714733CB1A73317000D2D1EF /* Images.xcassets */; };
+		714733CF1A73317000D2D1EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714733CD1A73317000D2D1EF /* LaunchScreen.xib */; };
+		714733DB1A73317000D2D1EF /* tadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733DA1A73317000D2D1EF /* tadaTests.swift */; };
+		714733EB1A733E3100D2D1EF /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E41A733E3100D2D1EF /* MKButton.swift */; };
+		714733EC1A733E3100D2D1EF /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E51A733E3100D2D1EF /* MKColor.swift */; };
+		714733ED1A733E3100D2D1EF /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E61A733E3100D2D1EF /* MKImageView.swift */; };
+		714733EE1A733E3100D2D1EF /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E71A733E3100D2D1EF /* MKLabel.swift */; };
+		714733EF1A733E3100D2D1EF /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E81A733E3100D2D1EF /* MKLayer.swift */; };
+		714733F01A733E3100D2D1EF /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733E91A733E3100D2D1EF /* MKTableViewCell.swift */; };
+		714733F11A733E3100D2D1EF /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714733EA1A733E3100D2D1EF /* MKTextField.swift */; };
+		714734031A7366A700D2D1EF /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714734021A7366A700D2D1EF /* Event.swift */; };
+		7147FD311A75FBB900A8EADA /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7147FD301A75FBB900A8EADA /* CNPPopupController.m */; };
+		71816BFB1A767FCE004C92E1 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71816BF91A767FCE004C92E1 /* MyCell.swift */; };
+		71816BFD1A768650004C92E1 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71816BFC1A768650004C92E1 /* ListTableViewController.swift */; };
+		71AC73411A7730F60018ADA5 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AC73401A7730F60018ADA5 /* NewEventViewController.swift */; };
+		71C2EA6D1A7747F500479B4B /* NewReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2EA6C1A7747F500479B4B /* NewReminder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		714733D51A73317000D2D1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 714733B71A73317000D2D1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 714733BE1A73317000D2D1EF;
+			remoteInfo = tada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		714733BF1A73317000D2D1EF /* tada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		714733C31A73317000D2D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714733C41A73317000D2D1EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		714733C61A73317000D2D1EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		714733C91A73317000D2D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		714733CB1A73317000D2D1EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		714733CE1A73317000D2D1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		714733D41A73317000D2D1EF /* tadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		714733D91A73317000D2D1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714733DA1A73317000D2D1EF /* tadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tadaTests.swift; sourceTree = "<group>"; };
+		714733E41A733E3100D2D1EF /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
+		714733E51A733E3100D2D1EF /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
+		714733E61A733E3100D2D1EF /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKImageView.swift; sourceTree = "<group>"; };
+		714733E71A733E3100D2D1EF /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
+		714733E81A733E3100D2D1EF /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		714733E91A733E3100D2D1EF /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
+		714733EA1A733E3100D2D1EF /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
+		714733F31A7342F000D2D1EF /* LTMorphingLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LTMorphingLabel.framework; path = Carthage/Build/iOS/LTMorphingLabel.framework; sourceTree = "<group>"; };
+		714734021A7366A700D2D1EF /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
+		7147FD2F1A75FBB900A8EADA /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = ../CNPPopupController.h; sourceTree = "<group>"; };
+		7147FD301A75FBB900A8EADA /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = ../CNPPopupController.m; sourceTree = "<group>"; };
+		7147FD331A75FCCE00A8EADA /* tada-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tada-Bridging-Header.h"; sourceTree = "<group>"; };
+		71816BF91A767FCE004C92E1 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		71816BFC1A768650004C92E1 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		71AC73401A7730F60018ADA5 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
+		71C2EA6C1A7747F500479B4B /* NewReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReminder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714733BC1A73317000D2D1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714733D11A73317000D2D1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714733B61A73317000D2D1EF = {
+			isa = PBXGroup;
+			children = (
+				714733F31A7342F000D2D1EF /* LTMorphingLabel.framework */,
+				714733C11A73317000D2D1EF /* tada */,
+				714733D71A73317000D2D1EF /* tadaTests */,
+				714733C01A73317000D2D1EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714733C01A73317000D2D1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714733BF1A73317000D2D1EF /* tada.app */,
+				714733D41A73317000D2D1EF /* tadaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714733C11A73317000D2D1EF /* tada */ = {
+			isa = PBXGroup;
+			children = (
+				7147FD2A1A75FB2700A8EADA /* CNP */,
+				714733F21A733E3800D2D1EF /* MK */,
+				714733C41A73317000D2D1EF /* AppDelegate.swift */,
+				714734021A7366A700D2D1EF /* Event.swift */,
+				714733C61A73317000D2D1EF /* ViewController.swift */,
+				7147FD331A75FCCE00A8EADA /* tada-Bridging-Header.h */,
+				714733C81A73317000D2D1EF /* Main.storyboard */,
+				71AC73401A7730F60018ADA5 /* NewEventViewController.swift */,
+				71816BFC1A768650004C92E1 /* ListTableViewController.swift */,
+				71816BF91A767FCE004C92E1 /* MyCell.swift */,
+				71C2EA6C1A7747F500479B4B /* NewReminder.swift */,
+				714733CB1A73317000D2D1EF /* Images.xcassets */,
+				714733CD1A73317000D2D1EF /* LaunchScreen.xib */,
+				714733C21A73317000D2D1EF /* Supporting Files */,
+			);
+			path = tada;
+			sourceTree = "<group>";
+		};
+		714733C21A73317000D2D1EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714733C31A73317000D2D1EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714733D71A73317000D2D1EF /* tadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				714733DA1A73317000D2D1EF /* tadaTests.swift */,
+				714733D81A73317000D2D1EF /* Supporting Files */,
+			);
+			path = tadaTests;
+			sourceTree = "<group>";
+		};
+		714733D81A73317000D2D1EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714733D91A73317000D2D1EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714733F21A733E3800D2D1EF /* MK */ = {
+			isa = PBXGroup;
+			children = (
+				714733E41A733E3100D2D1EF /* MKButton.swift */,
+				714733E51A733E3100D2D1EF /* MKColor.swift */,
+				714733E61A733E3100D2D1EF /* MKImageView.swift */,
+				714733E71A733E3100D2D1EF /* MKLabel.swift */,
+				714733E81A733E3100D2D1EF /* MKLayer.swift */,
+				714733E91A733E3100D2D1EF /* MKTableViewCell.swift */,
+				714733EA1A733E3100D2D1EF /* MKTextField.swift */,
+			);
+			name = MK;
+			sourceTree = "<group>";
+		};
+		7147FD2A1A75FB2700A8EADA /* CNP */ = {
+			isa = PBXGroup;
+			children = (
+				7147FD2F1A75FBB900A8EADA /* CNPPopupController.h */,
+				7147FD301A75FBB900A8EADA /* CNPPopupController.m */,
+			);
+			name = CNP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		714733BE1A73317000D2D1EF /* tada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714733DE1A73317000D2D1EF /* Build configuration list for PBXNativeTarget "tada" */;
+			buildPhases = (
+				714733BB1A73317000D2D1EF /* Sources */,
+				714733BC1A73317000D2D1EF /* Frameworks */,
+				714733BD1A73317000D2D1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tada;
+			productName = tada;
+			productReference = 714733BF1A73317000D2D1EF /* tada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		714733D31A73317000D2D1EF /* tadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714733E11A73317000D2D1EF /* Build configuration list for PBXNativeTarget "tadaTests" */;
+			buildPhases = (
+				714733D01A73317000D2D1EF /* Sources */,
+				714733D11A73317000D2D1EF /* Frameworks */,
+				714733D21A73317000D2D1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714733D61A73317000D2D1EF /* PBXTargetDependency */,
+			);
+			name = tadaTests;
+			productName = tadaTests;
+			productReference = 714733D41A73317000D2D1EF /* tadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714733B71A73317000D2D1EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					714733BE1A73317000D2D1EF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					714733D31A73317000D2D1EF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 714733BE1A73317000D2D1EF;
+					};
+				};
+			};
+			buildConfigurationList = 714733BA1A73317000D2D1EF /* Build configuration list for PBXProject "tada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 714733B61A73317000D2D1EF;
+			productRefGroup = 714733C01A73317000D2D1EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714733BE1A73317000D2D1EF /* tada */,
+				714733D31A73317000D2D1EF /* tadaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		714733BD1A73317000D2D1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714733CA1A73317000D2D1EF /* Main.storyboard in Resources */,
+				714733CF1A73317000D2D1EF /* LaunchScreen.xib in Resources */,
+				714733CC1A73317000D2D1EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714733D21A73317000D2D1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714733BB1A73317000D2D1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714733F11A733E3100D2D1EF /* MKTextField.swift in Sources */,
+				714733EE1A733E3100D2D1EF /* MKLabel.swift in Sources */,
+				714733EB1A733E3100D2D1EF /* MKButton.swift in Sources */,
+				71C2EA6D1A7747F500479B4B /* NewReminder.swift in Sources */,
+				71816BFB1A767FCE004C92E1 /* MyCell.swift in Sources */,
+				71AC73411A7730F60018ADA5 /* NewEventViewController.swift in Sources */,
+				714733ED1A733E3100D2D1EF /* MKImageView.swift in Sources */,
+				714733F01A733E3100D2D1EF /* MKTableViewCell.swift in Sources */,
+				714733EF1A733E3100D2D1EF /* MKLayer.swift in Sources */,
+				714733C71A73317000D2D1EF /* ViewController.swift in Sources */,
+				714733C51A73317000D2D1EF /* AppDelegate.swift in Sources */,
+				7147FD311A75FBB900A8EADA /* CNPPopupController.m in Sources */,
+				714733EC1A733E3100D2D1EF /* MKColor.swift in Sources */,
+				714734031A7366A700D2D1EF /* Event.swift in Sources */,
+				71816BFD1A768650004C92E1 /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		714733D01A73317000D2D1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714733DB1A73317000D2D1EF /* tadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		714733D61A73317000D2D1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 714733BE1A73317000D2D1EF /* tada */;
+			targetProxy = 714733D51A73317000D2D1EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		714733C81A73317000D2D1EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714733C91A73317000D2D1EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		714733CD1A73317000D2D1EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				714733CE1A73317000D2D1EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		714733DC1A73317000D2D1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		714733DD1A73317000D2D1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714733DF1A73317000D2D1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = tada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tada/tada-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		714733E01A73317000D2D1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = tada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tada/tada-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		714733E21A73317000D2D1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tada.app/tada";
+			};
+			name = Debug;
+		};
+		714733E31A73317000D2D1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tada.app/tada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714733BA1A73317000D2D1EF /* Build configuration list for PBXProject "tada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714733DC1A73317000D2D1EF /* Debug */,
+				714733DD1A73317000D2D1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714733DE1A73317000D2D1EF /* Build configuration list for PBXNativeTarget "tada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714733DF1A73317000D2D1EF /* Debug */,
+				714733E01A73317000D2D1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714733E11A73317000D2D1EF /* Build configuration list for PBXNativeTarget "tadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714733E21A73317000D2D1EF /* Debug */,
+				714733E31A73317000D2D1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714733B71A73317000D2D1EF /* Project object */;
+}
