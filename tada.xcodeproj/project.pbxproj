@@ -56,7 +56,6 @@
 		714733E81A733E3100D2D1EF /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
 		714733E91A733E3100D2D1EF /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
 		714733EA1A733E3100D2D1EF /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
-		714733F31A7342F000D2D1EF /* LTMorphingLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LTMorphingLabel.framework; path = Carthage/Build/iOS/LTMorphingLabel.framework; sourceTree = "<group>"; };
 		714734021A7366A700D2D1EF /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Event.swift; sourceTree = "<group>"; };
 		7147FD2F1A75FBB900A8EADA /* CNPPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = ../CNPPopupController.h; sourceTree = "<group>"; };
 		7147FD301A75FBB900A8EADA /* CNPPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = ../CNPPopupController.m; sourceTree = "<group>"; };
@@ -88,7 +87,6 @@
 		714733B61A73317000D2D1EF = {
 			isa = PBXGroup;
 			children = (
-				714733F31A7342F000D2D1EF /* LTMorphingLabel.framework */,
 				714733C11A73317000D2D1EF /* tada */,
 				714733D71A73317000D2D1EF /* tadaTests */,
 				714733C01A73317000D2D1EF /* Products */,

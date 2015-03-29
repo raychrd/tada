@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9F49A4C-7416-418A-9613-ABAAAA37599F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tada</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1D889276B6A27116C732651230B78B427E4A1BE</key>
+		<string>https://github.com/raychrd/tada.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tada.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1D889276B6A27116C732651230B78B427E4A1BE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/raychrd/tada.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1D889276B6A27116C732651230B78B427E4A1BE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1D889276B6A27116C732651230B78B427E4A1BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tada</string>
+		</dict>
+	</array>
+</dict>
+</plist>

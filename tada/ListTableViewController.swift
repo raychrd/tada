@@ -82,7 +82,7 @@ class ListTableViewController: UIViewController, UITableViewDataSource, UITableV
         
         
         let index = indexPath.row % circleColors.count
-        cell.circleLayerColor = circleColors[index]
+        //cell.circleLayerColor = circleColors[index]
         
         return cell
     }
