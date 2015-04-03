@@ -73,6 +73,7 @@ class NewEventViewController: UIViewController {
                 time.text = "提醒时间 "+timeString
             } else {
                 time.text = "未指定具体时间"
+                
             }
             
             createReminder()

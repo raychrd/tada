@@ -118,6 +118,8 @@ func createReminder() {
     
     reminder.startDateComponents = reminderTimeComponent
     
+    println(reminder.startDateComponents)
+    
     reminder.dueDateComponents = reminderTimeComponent
     
     let todayDate:NSDate = NSCalendar.currentCalendar().dateFromComponents(reminderTimeComponent!)!

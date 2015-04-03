@@ -162,10 +162,6 @@ class ViewController: UIViewController,CNPPopupControllerDelegate{
     
     func reActived(notification:NSNotification) {
         
-        println("reA")
-        
-        
-        
         refreshEvents()
       
         while(!status) {
@@ -184,7 +180,8 @@ class ViewController: UIViewController,CNPPopupControllerDelegate{
             firstEvent.text = appDelegate!.events[0].title
             
             if ((appDelegate!.events[0] as EKReminder).startDateComponents != nil){
-                
+                println("qq")
+                println((appDelegate!.events[0] as EKReminder).startDateComponents)
                 let a = (appDelegate!.events[0] as EKReminder).startDateComponents.hour
                 var hour = String(a)
                 
@@ -199,7 +196,7 @@ class ViewController: UIViewController,CNPPopupControllerDelegate{
             
         } else {
             nextToDo.text = "Nothing to do"
-            firstEvent.text = "Everything was done!"
+            firstEvent.text = "巴啦啦小魔仙-全身变"
             
             firstEventTime.text = ""
         }

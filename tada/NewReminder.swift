@@ -30,7 +30,8 @@ var setAlarm:Bool = false
 var reminderText:String?
 var reminderTimeComponent:NSDateComponents?
 let date:NSDate = NSDate()
-let flags: NSCalendarUnit = .DayCalendarUnit | .MonthCalendarUnit | .YearCalendarUnit | .WeekdayCalendarUnit
+//let flags: NSCalendarUnit = .DayCalendarUnit | .MonthCalendarUnit | .YearCalendarUnit | .WeekdayCalendarUnit
+let flags:NSCalendarUnit = NSCalendarUnit.CalendarUnitYear | NSCalendarUnit.CalendarUnitMonth | NSCalendarUnit.CalendarUnitDay | NSCalendarUnit.CalendarUnitHour | NSCalendarUnit.CalendarUnitMinute
 let todayComponents = NSCalendar.currentCalendar().components(flags, fromDate: date)
 
 let dayWords1 = ["今天","明天","后天"]
@@ -61,6 +62,7 @@ func analyseString(text:String) {
     reminderDateComponent.month = todayComponents.month
     reminderDateComponent.day = todayComponents.day
     reminderDateComponent.hour = todayComponents.hour
+    print(reminderDateComponent.year)
     setAlarm = false
     var text1 = text
     var index = advance(text1.startIndex, 2)
@@ -374,6 +376,9 @@ func analyseString(text:String) {
     reminderTimeComponent = reminderDateComponent
     if hasHour || noonStatus == 3 {
         setAlarm = true
+    } else {
+        println("seeeeeee")
+        println(reminderDateComponent.hour)
     }
     
 }

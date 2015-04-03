@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tada/NewReminder.swift"
-            timestampString = "444403347.33318"
+            timestampString = "449756708.001268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
             landmarkName = "analyseString(_:)"
             landmarkType = "7">
          </BreakpointContent>
